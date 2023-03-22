@@ -12,7 +12,6 @@ class ButtonDialog(context: Context) {
         dialog.setContentView(R.layout.button_sample)
         dialog.setCanceledOnTouchOutside(true)
         dialog.setCancelable(true)
-        dialog.window!!.setLayout(WindowManager.LayoutParams.MATCH_PARENT, WindowManager.LayoutParams.WRAP_CONTENT)
         // Set Brightness outside the dialog -80%
         dialog.window!!.setDimAmount(0.8f)
 
